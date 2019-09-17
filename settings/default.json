@@ -1,0 +1,60 @@
+{
+    "metadata": {
+        "name": "data",
+        "description": "",
+        "owner": ""
+    },
+    "settings": {
+        "path": "./settings/",
+        "filename": "default.json",
+        "project": {
+            "path": "./projects/",
+            "filename": "data.json"
+        },
+        "open_refine": {
+            "fast_service_check": true,
+            "minimum_query_length": 8
+        },
+        "refindit": {
+            "limit_results_per_db": true,
+            "num_results_per_db": 5,
+            "num_results_per_db_for_slow_check": 0,
+            "limit_by_dbs": true,
+            "dbs": ["crossref", "datacite"],
+            "timeout": 20,
+            "repeat": 3
+        },
+        "reconciliation": {
+            "match_threshold": 90,
+            "only_dois": true
+        }
+    },
+    "status": {
+        "service_checked": false,
+        "redo-reconcile": false
+    },
+    "summary": {
+        "num_of_queries": 0,
+        "refindit": {
+            "num_of_results_per_query": {},
+            "total_num_of_results": 0,
+            "avg_num_of_results_per_query": 0,
+            "time_per_query": {},
+            "avg_time_per_query": {},
+            "timeouts_per_query": {}
+            },
+        "reconcile": {
+            "num_of_selected_results_per_query": {},
+            "total_num_of_selected_results": 0
+        },
+        "zenodo": {
+            "total_num_figures": 0,
+            "number_of_queries_with_figures": 0,
+            "avg_num_figures_per_query": 0,
+            "total_num_treatments": 0,
+            "number_of_queries_with_treatments": 0,
+            "avg_num_treatments_per_query": 0
+        }
+    },
+    "data": {}
+}
