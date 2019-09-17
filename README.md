@@ -1,2 +1,3 @@
-# o3rt
-Repository for the Open Refine-Refindit Reconciliation Tool
+# O3RT
+
+Repository for the Open Refine-Refindit Reconciliation Tool.
