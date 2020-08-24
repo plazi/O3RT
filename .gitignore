@@ -1,6 +1,7 @@
 # VS Code Config #
 ###################
 .vscode/
+O3RT.code-workspace
 
 # Project data Files #
 ###############
